@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '3456845881164324');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=3456845881164324&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code --><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#020b05">
+<title>Cash Flow — Community</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{min-height:100%;font-family:Arial,Helvetica,sans-serif;background:#020a05;color:#fff}
+  body{overflow-x:hidden}
+  a{text-decoration:none;color:inherit}
+
+  .page{
+    position:relative;min-height:100vh;overflow:hidden;
+    background:
+      radial-gradient(circle at 50% 24%,rgba(0,255,80,.15),transparent 25%),
+      radial-gradient(circle at 50% 80%,rgba(0,255,90,.08),transparent 30%),
+      linear-gradient(180deg,#020b05 0%,#031208 52%,#020805 100%);
+  }
+  .page:before{
+    content:"";position:absolute;inset:0;pointer-events:none;opacity:.28;
+    background-image:
+      linear-gradient(rgba(35,255,75,.09) 1px,transparent 1px),
+      linear-gradient(90deg,rgba(35,255,75,.07) 1px,transparent 1px);
+    background-size:80px 80px;
+    mask-image:linear-gradient(to bottom,black,transparent 85%);
+  }
+
+  .glow-dot{
+    position:absolute;width:4px;height:4px;border-radius:50%;background:#65ff38;
+    box-shadow:0 0 12px 4px rgba(80,255,50,.45);animation:twinkle 2.5s infinite alternate;
+  }
+  @keyframes twinkle{from{opacity:.25;transform:scale(.7)}to{opacity:1;transform:scale(1.35)}}
+
+  .money{
+    position:absolute;color:#b9d2a8;opacity:.16;font-weight:900;font-size:62px;
+    filter:blur(.3px);text-shadow:0 0 10px #000;animation:float 10s ease-in-out infinite;
+    transform:rotate(-20deg);
+  }
+  .m1{left:-18px;top:4%;}.m2{right:-20px;top:9%;transform:rotate(22deg);font-size:75px}
+  .m3{left:-35px;top:35%;font-size:55px;transform:rotate(15deg);animation-delay:-3s}
+  .m4{right:-28px;top:43%;font-size:68px;transform:rotate(-18deg);animation-delay:-5s}
+  .m5{left:10px;bottom:14%;font-size:58px;transform:rotate(12deg);animation-delay:-7s}
+  @keyframes float{50%{translate:0 -18px;rotate:3deg}}
+
+  .content{position:relative;z-index:2;width:min(100%,780px);margin:auto;padding:58px 24px 35px;text-align:center}
+
+  .orb{
+    width:260px;height:260px;margin:0 auto 40px;border-radius:50%;display:grid;place-items:center;
+    border:5px solid #82ff45;
+    background:radial-gradient(circle,#07150b 0 58%,#041008 59% 100%);
+    box-shadow:0 0 0 10px rgba(32,255,73,.10),0 0 25px #20ff45,0 0 70px rgba(34,255,73,.48),inset 0 0 35px rgba(41,255,72,.2);
+    position:relative;animation:pulse 3s ease-in-out infinite;
+  }
+  .orb:before,.orb:after{content:"";position:absolute;border:2px solid rgba(38,255,68,.28);border-radius:50%}
+  .orb:before{inset:-25px}.orb:after{inset:-42px;border-color:rgba(38,255,68,.13)}
+  @keyframes pulse{50%{box-shadow:0 0 0 10px rgba(32,255,73,.13),0 0 38px #20ff45,0 0 95px rgba(34,255,73,.55),inset 0 0 40px rgba(41,255,72,.25)}}
+
+  .orb span{font-size:52px;font-weight:900;letter-spacing:2px}
+
+  h1{font-size:clamp(46px,10vw,92px);line-height:.95;font-weight:950;letter-spacing:-3px;margin-bottom:22px}
+  h1 .green{color:#62ff25;text-shadow:0 0 25px rgba(74,255,30,.25)}
+  .subtitle{font-size:clamp(18px,3vw,29px);color:#ddd;margin-bottom:48px}
+  .bullet{color:#55ff2d;padding:0 12px}
+
+  .cta{
+    display:flex;align-items:center;justify-content:center;gap:18px;width:100%;
+    min-height:128px;border-radius:38px;padding:20px 25px;margin:0 auto 25px;
+    color:white;font-size:clamp(22px,4vw,38px);font-weight:900;
+    background:linear-gradient(110deg,#08bfe8,#126de9 55%,#0c8de8);
+    border:4px solid #28e9ff;box-shadow:0 0 25px rgba(20,219,255,.75),0 0 65px rgba(16,118,255,.35);
+    transition:.25s transform,.25s box-shadow;
+  }
+  .cta:hover{transform:translateY(-3px);box-shadow:0 0 35px rgba(20,219,255,.95),0 0 85px rgba(16,118,255,.45)}
+  .telegram{width:52px;height:52px;fill:white;flex:none}
+  .earn-note{font-size:15px;font-weight:800;line-height:1.45;color:#fff;margin:0 auto 12px;max-width:680px}
+  .open-note{font-size:18px;color:#d4d4d4;margin-bottom:52px}
+  .open-note:before{content:"";display:inline-block;width:13px;height:13px;border-radius:50%;background:#5cff35;box-shadow:0 0 12px #5cff35;margin-right:15px}
+
+  .features{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid rgba(80,255,50,.25);padding-top:28px}
+  .feature{padding:0 15px;min-height:115px;border-right:1px solid rgba(80,255,50,.23)}
+  .feature:last-child{border-right:0}
+  .feature .ficon{font-size:38px;color:#63ff37;margin-bottom:12px}
+  .feature h3{font-size:21px;margin-bottom:9px}
+  .feature p{font-size:16px;color:#c4c4c4;line-height:1.35}
+
+  .bottom-glow{
+    height:110px;margin-top:20px;border-radius:50% 50% 0 0;
+    border-top:2px solid rgba(77,255,42,.45);
+    box-shadow:0 -10px 40px rgba(50,255,40,.18),inset 0 12px 35px rgba(50,255,40,.08);
+  }
+
+  @media(max-width:620px){
+    .content{padding:42px 18px 24px}
+    .orb{width:190px;height:190px;margin-bottom:35px}
+    .orb span{font-size:37px}
+    h1{letter-spacing:-2px;margin-bottom:17px}
+    .subtitle{line-height:1.35;margin-bottom:34px}
+    .bullet{padding:0 5px}
+    .cta{min-height:88px;border-radius:27px;border-width:3px;gap:10px;padding:14px;font-size:22px}
+    .telegram{width:40px;height:40px}
+    .open-note{font-size:15px;margin-bottom:35px}
+    .features{grid-template-columns:repeat(2,1fr);row-gap:28px}
+    .feature{min-height:105px}
+    .feature:nth-child(2){border-right:0}
+    .feature h3{font-size:18px}
+    .feature p{font-size:14px}
+    .feature .ficon{font-size:32px}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="money m1">$</div><div class="money m2">$</div>
+  <div class="money m3">$</div><div class="money m4">$</div><div class="money m5">$</div>
+
+  <i class="glow-dot" style="left:23%;top:7%"></i>
+  <i class="glow-dot" style="left:67%;top:12%;animation-delay:.7s"></i>
+  <i class="glow-dot" style="left:88%;top:29%;animation-delay:1.2s"></i>
+  <i class="glow-dot" style="left:12%;top:48%;animation-delay:.3s"></i>
+  <i class="glow-dot" style="left:76%;top:56%;animation-delay:1.8s"></i>
+
+  <main class="content">
+    <div class="orb"><span>MONEY</span></div>
+
+    <h1><span class="green">MONEY KERALA</span></h1>
+    <p class="subtitle">Money-Making Ideas <span class="bullet">•</span> Community Channel</p>
+
+
+
+    <p class="earn-note">Earn ₹500–₹3,000 every day<br>
+Join the group below now to get started. <a href="tg://emoji?id=5305522282695768654&t=0">👇</a></p>
+
+    <!-- Replace YOUR_TELEGRAM_LINK with your actual Telegram invite/channel URL -->
+    <a class="cta" href="https://t.me/+VEGETzQX6e8xOGM1" target="_blank" rel="noopener noreferrer"
+       onclick="if(window.fbq){fbq('track','Lead');}">
+      <svg class="telegram" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M21.4 3.6 18.1 20c-.25 1.16-.9 1.45-1.82.9l-5-3.69-2.41 2.32c-.27.27-.5.5-1.02.5l.36-5.1 9.28-8.38c.4-.36-.09-.56-.62-.2L5.4 13.72.47 12.18c-1.07-.34-1.09-1.07.22-1.58L19.94 3.1c.89-.33 1.67.2 1.46.5Z"/>
+      </svg>
+      <span>Join Free on Telegram →</span>
+    </a>
+
+    <p class="open-note">Opens Telegram in a new tab</p>
+
+    <section class="features">
+      <div class="feature">
+        <div class="ficon">◉</div>
+        <h3>Learn More</h3>
+        <p>Practical ideas &amp; resources</p>
+      </div>
+      <div class="feature">
+        <div class="ficon">↗</div>
+        <h3>Daily Updates</h3>
+        <p>Tips, tools &amp; insights</p>
+      </div>
+      <div class="feature">
+        <div class="ficon">♧</div>
+        <h3>Strong Community</h3>
+        <p>Learn and grow together</p>
+      </div>
+      <div class="feature">
+        <div class="ficon">🎁</div>
+        <h3>Free Access</h3>
+        <p>No hidden membership fee</p>
+      </div>
+    </section>
+
+    <div class="bottom-glow"></div>
+  </main>
+</div>
+</body>
+</html>
